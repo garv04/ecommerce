@@ -1,0 +1,154 @@
+.logo {
+    border-radius: 0%; /* Remove circular styling for better visibility */
+    width: 100px; /* Set a smaller width for better visibility */
+    height: 80px; /* Set a smaller height for circular logo */
+    background-size: contain; /* Ensure the image fits within the element */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    font-size: 14px; /* Updated font size */
+}
+
+header {
+    background-color: #d19a6a;
+    color: white;
+    padding: 10px; /* Reduced padding for smaller header size */
+    text-align: center;
+}
+
+
+nav {
+    background-color: #d19a6a; /* Add background color to the navigation */
+    padding: 10px 0; /* Add padding for better spacing */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: center; /* Center the navigation items */
+}
+
+nav ul li {
+    margin: 0 20px; /* Increase margin for better spacing */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px; /* Add padding for clickable area */
+    transition: background-color 0.3s; /* Add transition for hover effect */
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Add hover effect */
+    border-radius: 5px; /* Add rounded corners on hover */
+}
+
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+    font-size: 1.5em; /* Updated font size for headings */
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align items to the left without gaps */
+}
+
+.product-item, .necklace-product {
+    background-color: #f0f0f0; /* Set a consistent background color */
+    border: 1px solid #d19a6a; /* Match the theme color */
+    border-radius: 20px; /* Increased border radius for a softer look */
+
+    margin: 15px; /* Adjusted margin for better spacing */
+    padding: 15px; /* Adjusted padding for better spacing */
+    text-align: center;
+    width: calc(30% - 30px); /* Adjust width for better responsiveness */
+    max-height: 350px; /* Set a maximum height for images */
+    transition: transform 0.3s, box-shadow 0.3s; /* Added transition for hover effects */
+}
+
+.product-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
+}
+
+.product-item img {
+    max-height: 220px; /* Increased maximum height for better visibility */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.product-item h3 {
+    color: #d19a6a; /* Set a color that matches the theme */
+}
+
+.product-item p {
+    color: #555; /* Set a darker color for better readability */
+}
+
+/* Contact Us Section Styles */
+#contact-us {
+    background-color: #d19a6a; /* Match the website's color theme */
+    color: #ffffff; /* Change text color to white for better contrast */
+    padding: 30px; /* Increased padding for better spacing */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+#contact-us h2 {
+    color: #333333; /* Change heading color to a standard color for better readability */
+    font-family: 'Arial', sans-serif; /* Use a standard font for better readability */
+    font-size: 1.5em; /* Updated font size for better visibility */
+}
+
+#contact-us p {
+    font-size: 1em; /* Updated font size for better visual appeal */
+    font-family: 'Arial', sans-serif; /* Use a standard font for paragraphs */
+    text-decoration: none; /* Remove underline to make it look like regular text */
+    color: #ffffff; /* Change text color to white for better contrast */
+    padding: 5px; /* Add padding for better spacing */
+}
+
+/* Instagram Icon Styles */
+.instagram-icon {
+    max-height: 50px; /* Increase the maximum height for better visibility */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.necklace-product {
+    border: 2px solid #d19a6a; /* Example border color */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Example shadow for depth */
+}
+
+/* Footer styles */
+.footer-content {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 20px; /* Padding for spacing */
+    text-align: center; /* Centered text */
+}
+
+.social-media {
+    margin-top: 10px; /* Space above social media links */
+}
+
+.social-media a {
+    margin: 0 10px; /* Space between social media links */
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Link color */
+}
+
+.social-media a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
